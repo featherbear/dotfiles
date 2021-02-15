@@ -1,0 +1,12 @@
+[user]
+	email = andrew.j.wong@outlook.com
+	name = Andrew Wong
+
+[core]
+	filemode = true
+	autocrlf = true
+[alias]
+	sb = status -sb
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[pull]
+	rebase = false
