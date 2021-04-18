@@ -10,5 +10,7 @@
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	# https://github.com/earwig/git-repo-updater
 	up = !gitup .
+	# up = "!f() { C:/.../gitup.bat; }; f"
+
 [pull]
 	rebase = false
