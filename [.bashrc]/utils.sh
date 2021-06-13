@@ -5,3 +5,5 @@ alias wifree="~/.opt/wifree.py"
 
 # github.com/featherbear/zt.py/
 alias zt="sudo ~/.opt/zt.py"
+
+# https://pypi.org/project/gitup/
