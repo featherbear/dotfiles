@@ -16,7 +16,7 @@ function viewMDSubmission() {
 
   if [ $2 ];
   then
-    tar -xOf ~cs6447/21T2.work/$1/all/$2/submission.tar | bat --tabs 2 --file-name "z$2 - $1" -l md --theme OneHalfDark
+    tar -xOf ~cs6447/21T2.work/$1/all/$2/submission.tar | bat --tabs 2 --file-name "z$2 ($(acc z$2 | grep '  Name :' | awk -F'[()]' '{print $2}')) | $1" -l md --theme OneHalfDark
   else
     ls -1d ~cs6447/21T2.work/$1/all/*/ | xargs -L 1 basename
   fi
