@@ -8,7 +8,7 @@ alias aslr="setarch \`uname -m\` -R"
 export PS1="\n--------------------\n\w \T \$?\n\\\\$ \[\$(tput sgr0)\]"
 :EOF
 
-pwnDockerSuffix="@sha256:7a91fcee7f34679a40bef80f82a2872298530b0c78c2e0ac9fd183c15fe60ba2"
+export pwnDockerSuffix="@sha256:7a91fcee7f34679a40bef80f82a2872298530b0c78c2e0ac9fd183c15fe60ba2"
 
 if [ "$(uname)" == "Darwin" ]; then
   # Mac support
